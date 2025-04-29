@@ -1,0 +1,15 @@
+langchain==0.3.24
+langchain-community==0.3.22
+langchain-core==0.3.56
+langchain-groq==0.3.2
+langchain-openai==0.3.14
+langgraph==0.3.34
+langgraph-prebuilt==0.1.8
+python-dotenv==1.0.1
+requests==2.32.3
+streamlit==1.44.1
+typing-inspect==0.9.0
+typing_extensions==4.12.2
+uvicorn==0.34.0
+
+
