@@ -1,5 +1,3 @@
-# video link :https://www.youtube.com/watch?v=9XMNWo8qNHs&ab_channel=AIwithHassan
-
 #   Phase 1
 
 # Defines how the AI chatbot (agent) is created using LangGraph and how it responds to inputs
