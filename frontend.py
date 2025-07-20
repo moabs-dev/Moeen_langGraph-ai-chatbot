@@ -58,6 +58,6 @@ if st.button('Ask Agent'):
                 st.subheader('Agent response')
                 st.markdown(f'**Final Response:** {response_data}')
     else:
-        st.subheader('Agent response')
+        st.subheader('Agent response:')
         st.markdown(f'**Final Response:** Kindly enter your querry')    
         
