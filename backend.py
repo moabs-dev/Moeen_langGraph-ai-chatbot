@@ -44,7 +44,7 @@ def chat_endpoint(request: RequestState):
     provider = request.model_provider
 
     # Create AI agent and get response from it
-    response = get_response_from_ai_agent(llm_id,query,allow_search,system_prompt,provider)
+    response = get_response_from_ai_agent(llm_id,query,allow_search,system_prompt,provider)#response from agent in file ai_egent.py
     return response
 
 # step 3: Run app and explore swagger UI docs
