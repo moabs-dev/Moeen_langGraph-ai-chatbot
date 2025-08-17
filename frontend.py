@@ -12,6 +12,7 @@ st.write('Create and interact woth AI agents')
 
 system_prompt=st.text_area('Define your AI agent:',height=70,placeholder='Type your system prompt here...')
 
+#models which you can use
 MODEL_NAMES_GROQ=['llama-3.3-70b-versatile','mixtral-8x7b-32768']
 MODEL_NAMES_OPENAI=['gpt-4o-mini','GPT-4 Omni']
 
