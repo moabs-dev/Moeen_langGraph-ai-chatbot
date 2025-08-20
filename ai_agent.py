@@ -5,7 +5,7 @@
 # Step 1: Setup API keys for Grok and Tavily
 
 import os
-
+#loading APIs from .env file
 from dotenv import load_dotenv
 load_dotenv()
 GROQ_API_KEY=os.environ.get('GROQ_API_KEY') # from 'https://console.groq.com/keys'
