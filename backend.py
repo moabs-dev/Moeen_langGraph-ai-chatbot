@@ -37,7 +37,7 @@ def chat_endpoint(request: RequestState):
     if request.model_name not in ALLOWED_MODEL_NAMES:
         return {'error':'Invalid model name. KIndly select a valid AI model'}
     
-    llm_id = request.model_name 
+    llm_id = request.model_name #making parameters to give to agent for response
     query= request.messages
     allow_search= request.allow_search 
     system_prompt = request.system_prompt 
